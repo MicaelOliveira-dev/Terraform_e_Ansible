@@ -7,3 +7,5 @@
 *.tfstate.*
 
 *.pem
+
+*hosts.yml
