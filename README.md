@@ -4,7 +4,7 @@
 ### Problema
 - <p align="justify">Temos o seguinte problema: vamos criar uma EC2 na AWS com Terraform e precisamos subir um arquivo index.html. Para esses requisitos, podemos utilizar o Terraform. Assim que a máquina virtual for criada com Terraform e o arquivo index.html for criado, ocorreu um erro no conteúdo do arquivo e tivemos que alterá-lo. Quando fizermos essa alteração no Terraform, ele irá destruir a máquina e criar uma nova com as alterações no arquivo, mas não queremos destruir a máquina. E agora? Vamos utilizar o Ansible para fazer essa alteração no arquivo sem interferir na máquina.</p>
 
-### Linguagem e Framework 
+### Ferramentas
 <img src="https://img.shields.io/static/v1?label=terraform&message=ferramenta &color=grenn&style=for-the-badge&logo=TERRAFORM"/>
 <img src="https://img.shields.io/static/v1?label=ansible&message=ferramenta &color=grenn&style=for-the-badge&logo=ANSIBLE"/>
 
